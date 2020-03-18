@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+
+  <include file="$(find rosbot_gazebo)/launch/rosbot.launch"></include>
+
+
+
+  <!-- Show in Rviz   -->
+  <node name="rviz" pkg="rviz" type="rviz" args="-d $(find rosbot_gazebo)/rviz/rosbot.rviz" required="true" output="screen"/>
+
+</launch>
