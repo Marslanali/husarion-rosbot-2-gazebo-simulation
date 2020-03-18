@@ -129,6 +129,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/rosbot_description/cmake_install.cmake")
   include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/rosbot_gazebo/cmake_install.cmake")
   include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/rosbot_teleop/cmake_install.cmake")
+  include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/rplidar_ros/cmake_install.cmake")
   include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/learning_joy/cmake_install.cmake")
   include("/home/arslanali/husarion-rosbot-2-gazebo-simulation/build/rosbot_navigation/cmake_install.cmake")
 
