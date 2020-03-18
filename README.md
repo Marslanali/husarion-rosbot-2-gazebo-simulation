@@ -61,7 +61,7 @@ The ~/catkin_ws/src/learning_joy folder contains the *turtle_joy.launch* file, w
    <img src="plots/input_data_1D.jpg" width ="300" height="300"/>  
    <img src="plots/input_data_2D.jpg" width ="300" height="300"/>
   <br/>
-  Fig. 1. Input Data
+  Fig. 1.
 </p>
 
 
@@ -69,7 +69,7 @@ The ~/catkin_ws/src/learning_joy folder contains the *turtle_joy.launch* file, w
   <img src="plots/input_clock.jpg" width ="300" height="300"/>
   <img src="plots/centroids_gmm.jpg" width ="300" height="300"/>
   <br/>
-  Fig. 2. Input Clock and, GMM Centroids
+  Fig. 2. 
 </p>
 
 
