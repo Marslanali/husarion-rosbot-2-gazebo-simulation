@@ -1,0 +1,2 @@
+learning_joy:rosbot_description:rosbot_gazebo:rosbot_navigation:rosbot_teleop
+-DCATKIN_DEVEL_PREFIX=/home/arslanali/husarion-rosbot-2-gazebo-simulation/devel -DCMAKE_INSTALL_PREFIX=/home/arslanali/husarion-rosbot-2-gazebo-simulation/install -G Unix Makefiles

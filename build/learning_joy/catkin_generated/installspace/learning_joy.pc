@@ -1,0 +1,8 @@
+prefix=/home/arslanali/husarion-rosbot-2-gazebo-simulation/install
+
+Name: learning_joy
+Description: Description of learning_joy
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 
