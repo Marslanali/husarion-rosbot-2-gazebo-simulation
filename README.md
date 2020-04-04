@@ -67,16 +67,16 @@ rosrun image_view image_view image:=/camera/rgb/image_raw
 ### Simulation screenshots
 
 <p align="left">
-   <img src="src/rosbot2_gazebo.jpg" width ="500" height="500"/>  
-   <img src="src/rosbot2_rviz.png" width ="500" height="500"/>
+   <img src="src/rosbot2_gazebo.jpg" width ="400" height="400"/>  
+   <img src="src/rosbot2_rviz.png" width ="400" height="400"/>
   <br/>
   Fig. 1. Gazebo and Rviz simualtion of ROSbot2
 </p>
 
 
 <p align="left">
-  <img src="src/Frame_ORB_SLAM.png" width ="500" height="500"/>
-  <img src="src/rosgraph.png" width ="500" height="500"/>
+  <img src="src/Frame_ORB_SLAM.png" width ="400" height="400"/>
+  <img src="src/rosgraph.png" width ="400" height="400"/>
   <br/>
   Fig. 2. ORB_SLAM view and RosGraph
 </p>
