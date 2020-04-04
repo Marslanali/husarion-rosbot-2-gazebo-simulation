@@ -15,7 +15,7 @@ Repository for Husarion ROSbot 2.0 simulation in gazebo and rviz with ORB_SLAM
 * **rosbot_navigation** launches teleop_keyboard node 
 * **ORB_SLAM** contains ORB_SLAM package for ROSbot2 
 
-## Install gazebo-ros control
+### Install gazebo-ros control
 
 ```
 sudo apt-get install ros-kinetic-gazebo-ros-pkgs ros-kinetic-gazebo-ros-control
@@ -60,11 +60,11 @@ The ~/catkin_ws/src/learning_joy folder contains the *turtle_joy.launch* file, w
 roslaunch learning_joy turtle_joy.launch
 ```
 
-### Getting RGB image to display
+#### Getting RGB image to display
 ```
 rosrun image_view image_view image:=/camera/rgb/image_raw
 ```
-### Simulation screenshots
+#### Simulation screenshots
 
 <p align="left">
    <img src="src/rosbot2_gazebo.jpg" width ="450" height="450"/>  
@@ -112,7 +112,7 @@ The ~/catkin_ws/src/learning_joy folder contains the *turtle_joy.launch* file, w
 roslaunch learning_joy turtle_joy.launch
 ```
 
-### Running ORB SLAM2 
+#### Running ORB SLAM2 
 ```
 ./build_ros.sh
 ```
@@ -128,7 +128,7 @@ rest is same
 
 ### Running webcame camera node on second laptop and ORB_SLAM subscribe use it in first laptop 
 
-### For machine 1 (Subscriber and running roscore, ORB_SLAM and, Rviz)
+#### For machine 1 (Subscriber and running roscore, ORB_SLAM and, Rviz)
 ```
 sudo apt-get install ros-kinetic-camera-umd
 ```
@@ -142,7 +142,7 @@ To view in image_view, run the following commmand
 rosrun image_view image_view image:=/image_raw _image_transport:=compressed
 ```
 
-### For machine 2 publisher running camera node 
+#### For machine 2 publisher running camera node 
 ```
 sudo apt-get install ros-kinetic-camera-umd
 ```
