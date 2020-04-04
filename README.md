@@ -32,7 +32,7 @@ In new terminal
 
 
 ### Run the Gazebo
-Load the Gazebo simulator in separate terminals using the following commands:
+Load the Gazebo simulator in separate terminals using the following commands
 
 `roslaunch rosbot_gazebo rosbot_gazebo_demo.launch`
 
