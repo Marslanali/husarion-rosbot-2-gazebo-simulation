@@ -38,7 +38,7 @@ Load the Gazebo simulator in separate terminals using the following commands:
 ```
 roslaunch rosbot_gazebo rosbot_gazebo_demo.launch
 ```
-### (Demo 2) Simulating ROSbot 2 in Gazebo along with Rviz and ORB_SLAM
+### Simulating ROSbot 2 in Gazebo along with Rviz and ORB_SLAM
 
 Load the Gazebo and Rviz simulator in separate terminals using the following commands:
 ```
@@ -67,21 +67,20 @@ rosrun image_view image_view image:=/camera/rgb/image_raw
 ### Simulation screenshots
 
 <p align="left">
-   <img src="src/rosbot2_gazebo.jpg" width ="400" height="400"/>  
-   <img src="src/rosbot2_rviz.png" width ="400" height="400"/>
+   <img src="src/rosbot2_gazebo.jpg" width ="450" height="450"/>  
+   <img src="src/rosbot2_rviz.png" width ="450" height="450"/>
   <br/>
   Fig. 1. Gazebo and Rviz simualtion of ROSbot2
 </p>
 
 
 <p align="left">
-  <img src="src/Frame_ORB_SLAM.png" width ="400" height="400"/>
-  <img src="src/rosgraph.png" width ="400" height="400"/>
+  <img src="src/Frame_ORB_SLAM.png" width ="450" height="450"/>
   <br/>
   Fig. 2. ORB_SLAM view and RosGraph
 </p>
 
-### (Demo 3) Simulating ROSbot 2 in Gazebo along with Rviz and ORB_SLAM (Demo 3)
+### Simulating ROSbot 2 in Gazebo along with Rviz and ORB_SLAM
 
 Download gazebo_model from the following link:
 ```
@@ -127,9 +126,9 @@ rosrun ORB_SLAM2 Mono src/ORB_SLAM2/Vocabulary/ORBvoc.txt src/ORB_SLAM2/Examples
 ```
 rest is same
 
-### (Demo 4) Running webcame camera node on second laptop and ORB_SLAM subscribe use it in first laptop 
+### Running webcame camera node on second laptop and ORB_SLAM subscribe use it in first laptop 
 
-###For machine 1 (Subscriber and running roscore, ORB_SLAM and, Rviz)
+### For machine 1 (Subscriber and running roscore, ORB_SLAM and, Rviz)
 ```
 sudo apt-get install ros-kinetic-camera-umd
 ```
@@ -143,7 +142,7 @@ To view in image_view, run the following commmand
 rosrun image_view image_view image:=/image_raw _image_transport:=compressed
 ```
 
-###For machine 2 publisher running camera node 
+### For machine 2 publisher running camera node 
 ```
 sudo apt-get install ros-kinetic-camera-umd
 ```
