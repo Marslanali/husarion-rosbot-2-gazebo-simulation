@@ -71,7 +71,12 @@ roslaunch learning_joy turtle_joy.launch
 ```
 rosrun image_view image_view image:=/camera/rgb/image_raw
 ```
-#### Simulation screenshots
+#### Simulation demo
+
+[https://www.youtube.com/watch?v=Xm3ef-apk04](https://www.youtube.com/watch?v=Xm3ef-apk04)
+
+[https://www.youtube.com/watch?v=G2Vk4WQwM2U&t=65s](https://www.youtube.com/watch?v=G2Vk4WQwM2U&t=65s)
+
 
 <p align="left">
    <img src="screen_shots/rosbot2_gazebo.jpg" width ="450" height="450"/>  
