@@ -5,7 +5,7 @@ Repository for Husarion ROSbot 2.0 simulation in gazebo and rviz with ORB_SLAM
 ### Brief Explanation
 
 * **rosbot_description** specifies the entire robot structure as links and joints and can launch the model in rviz.
-* **rosbot_gazebo** launches the model in the gazebo environment and contains different simulation worlds.
+* **rosbot_gazebo** launches the model in the gazebo environment and contains different simulation worlds
 * **learning_joy** teleop_joy stick node for teleoperating ROSbot2 with xbox 360 gamepad
 * **rosbot_navigation** launches teleop_keyboard node
 * **ORB_SLAM** contains ORB_SLAM package for ROSbot2
