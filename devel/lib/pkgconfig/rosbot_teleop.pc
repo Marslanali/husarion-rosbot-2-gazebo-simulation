@@ -1,8 +1,0 @@
-prefix=/home/arslanali/husarion-rosbot-2-gazebo-simulation/devel
-
-Name: rosbot_teleop
-Description: Description of rosbot_teleop
-Version: 0.0.0
-Cflags: 
-Libs: -L${prefix}/lib 
-Requires: 
