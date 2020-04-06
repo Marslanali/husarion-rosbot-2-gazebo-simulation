@@ -81,7 +81,7 @@ rosrun image_view image_view image:=/camera/rgb/image_raw
 
 
 <p align="left">
-  <img src="screen_shots/rosbot_orb.png" width ="450" height="450"/>
+  <img src="screen_shots/rosbot_orb.png" width ="600" height="400"/>
   <br/>
   Fig. 2. ORB_SLAM view
 </p>
