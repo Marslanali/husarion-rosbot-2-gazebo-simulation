@@ -1,10 +1,7 @@
 # husarion-rosbot-2-gazebo-simulation
 Repository for Husarion ROSbot 2.0 simulation in gazebo and rviz with ORB_SLAM
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 1e107948301ae1e4b4084f40b6cffcd18a413312
 ### Brief Explanation
 
 * **rosbot_description** specifies the entire robot structure as links and joints and can launch the model in rviz.
@@ -49,32 +46,7 @@ git clone https://github.com/Marslanali/husarion-rosbot-2-gazebo-simulation.git
 
 catkin_make
 ```
-<<<<<<< HEAD
 Now Load the Gazebo and Rviz simulator in separate terminals using the following commands:
-=======
-
-### Simulating ROSbot2 in Gazebo with rviz and ORB_SLAM
-
-Download gazebo_model from the following link:
-```
-https://bitbucket.org/osrf/gazebo_models
-```
-In a new terminal clone the repositroy
-```
-hg clone https://marslanali800@bitbucket.org/osrf/gazebo_models
-```
-After cloning the gazeb0_model, add the following line to your `~./bashrc` script.
-```
-sudo gedit ~/.bashrc
-export GAZEBO_MODEL_PATH=[...]/models:$GAZEBO_MODEL_PATH
-```
-For instace, if your clone your gazebo model in your home folder then it should be like this.
-```
-export GAZEBO_MODEL_PATH=/home/arslanali/gazebo_models:$GAZEBO_MODEL_PATH
-```
-
-Now Load the Gazebo and rviz simulator in separate terminals using the following commands:
->>>>>>> 1e107948301ae1e4b4084f40b6cffcd18a413312
 ```
 roslaunch rosbot_gazebo rosbot_gazebo_rviz_demo3.launch
 ```
@@ -98,35 +70,22 @@ roslaunch learning_joy turtle_joy.launch
 ```
 rosrun image_view image_view image:=/camera/rgb/image_raw
 ```
-#### Simulation demo
-
-[https://www.youtube.com/watch?v=Xm3ef-apk04](https://www.youtube.com/watch?v=Xm3ef-apk04)
-
-[https://www.youtube.com/watch?v=G2Vk4WQwM2U&t=65s](https://www.youtube.com/watch?v=G2Vk4WQwM2U&t=65s)
-
+#### Simulation screenshots
 
 <p align="left">
-<<<<<<< HEAD
    <img src="screen_shots/house_world.jpg" width ="450" height="450"/>  
-=======
-   <img src="screen_shots/rosbot2_gazebo.jpg" width ="450" height="450"/>  
->>>>>>> 1e107948301ae1e4b4084f40b6cffcd18a413312
    <img src="screen_shots/rosbot2_rviz.png" width ="450" height="450"/>
   <br/>
   Fig. 1. Gazebo and Rviz simualtion of ROSbot2
 </p>
 
+
 <p align="left">
-<<<<<<< HEAD
   <img src="screen_shots/rosbot_orb.png" width ="600" height="400"/>
-=======
-  <img src="screen_shots/Frame_ORB_SLAM.png" width ="450" height="450"/>
->>>>>>> 1e107948301ae1e4b4084f40b6cffcd18a413312
   <br/>
   Fig. 2. ORB_SLAM view
 </p>
 
-<<<<<<< HEAD
 
 ### Demo Videos
 
@@ -142,21 +101,6 @@ roslaunch learning_joy turtle_jhttps://www.youtube.com/watch?v=G2Vk4WQwM2U&t=66s
 ```
 
 ### Extra
-=======
-
-#### Running with ORB SLAM2
-```
-./build_ros.sh
-```
-for to test separately
-```
-rosrun ORB_SLAM2 Mono Vocabulary/ORBvoc.txt Examples/Monocular/KITTI00-02.yaml
-```
-to test with ROSbot2
-```
-rosrun ORB_SLAM2 Mono src/ORB_SLAM2/Vocabulary/ORBvoc.txt src/ORB_SLAM2/Examples/Monocular/KITTI00-02.yaml
-```
->>>>>>> 1e107948301ae1e4b4084f40b6cffcd18a413312
 
 ### Running webcame camera node on second laptop and ORB_SLAM subscribe use it in first laptop
 
