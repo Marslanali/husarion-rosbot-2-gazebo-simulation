@@ -1,5 +1,5 @@
 # husarion-rosbot-2-gazebo-simulation
-Repository for Husarion ROSbot 2.0 simulation in gazebo and rviz with ORB_SLAM
+Husarion ROSbot 2.0 simulation in gazebo and rviz with ORB_SLAM
 
 
 ### Brief Explanation
